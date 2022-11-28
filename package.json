@@ -1,0 +1,21 @@
+{
+    "name": "statemanjs-benchmarks",
+    "version": "1.0.0",
+    "description": "Test performance of statemanjs",
+    "scripts": {
+        "lint": "eslint './**/*.mjs' --fix"
+    },
+    "author": "Dmitry Shatokhin <dmtrshatokhin@gmail.com> (https://github.com/dmtrshat)",
+    "license": "MIT",
+    "dependencies": {
+        "@persevie/statemanjs": "^1.1.1",
+        "commander": "^9.4.1",
+        "effector": "^22.3.0",
+        "eslint": "^8.17.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "mobx": "^6.6.1",
+        "prettier": "^2.7.0",
+        "redux": "^4.2.0"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended",
+        "plugin:prettier/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "arrowFunctions": true
+        }
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "comma-dangle": "off",
+        "function-paren-newline": "off",
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "no-inner-declarations": "error",
+        "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "no-undef": "error"
+    }
+}
